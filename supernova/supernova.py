@@ -165,18 +165,18 @@ def getXData(filename):
 
 def getYData(filename):
     """
-        Extract data points of y-axis
+    Extract data points of y-axis
 
-        Args:
-            filename (str): File that contains the information for x-axis
+    Args:
+        filename (str): File that contains the information for x-axis
 
-        Returns:
-            list: A list of data points for x_axis
+    Returns:
+        list: A list of data points for x_axis
 
-        Raises:
-            FileNotFoundError: If the specified file does not exist
-            ValueError: If file content cannot be parsed into y-axis data points
-        """
+    Raises:
+        FileNotFoundError: If the specified file does not exist
+        ValueError: If file content cannot be parsed into y-axis data points
+    """
     yP = []
     with open(filename, "r") as file:
         for line in file:
@@ -227,14 +227,16 @@ def plotting(xP, yP):
     plt.figure(figsize=(12, 6))
 
     # Plotting data points
-    plt.plot(x_final, y_final, '-o', color='red',
+    plt.plot(x_final, y_final, '-o', color='red', markersize=3,
              label='Estimated Magnitudes')
 
     # Plotting 'ghost' points;
     # m_v = 6.5 is known as the practical, and theoretical limit of human
     # vision under ideal, dark-sky conditions
-    plt.scatter(x_blanks, [6.5]*len(x_blanks), marker='*',color='gray',
+    plt.scatter(x_blanks, [6.5]*len(x_blanks), marker='*', color='blue',
                 label='Qualitative Observations')
+
+    # Invert y-axis
     plt.gca().invert_yaxis()
 
     # Adjust x-axis ratio
@@ -247,6 +249,15 @@ def plotting(xP, yP):
             x_min = x - 50     # 50 is a random number to set limit
 
     plt.xlim(x_min, x_max)
+
+    # Add threshold of daytime visibility (naked eyes)
+    # m_v = -4 (July 4, 1054)
+    plt.axhline(y=-4, color='gray', linestyle='--', alpha=0.7,
+               label='Daytime visibility threshold')
+
+    # No uncertainty. Historical data only shows a range; hence, [-6,-4.5]
+    plt.axhspan(ymin=-6, ymax=-4.5, xmin=0, xmax=0.02, alpha=0.3, color='pink',
+               label='Peak magnitude range from historical records')
 
     # Add chart's information
     plt.xlabel(r'Days ($\Delta t$) Relative to the July 4, 1054 Discovery')
