@@ -51,7 +51,7 @@ All are written in Python. Version 3.0+ is strongly recommended.
 
 3. **Data Extraction**: Digitized the ECSN model curve from Moriya et al. 
    2014 (Figure 1) using WebPlotDigitizer.
-![moriyaimg](img/moriyaimg.png)
+![moriyaimg](supernova/img/moriyaimg.png)
 
 4. **Alignment**: Shifted the model vertically to match the historical 
    peak magnitude for visual comparison (roughly)
@@ -62,7 +62,7 @@ All are written in Python. Version 3.0+ is strongly recommended.
 To reproduce the result, run the file **main.py**
 
 ## Results
-![SN1054 Light Curve](img/sn1054-output.png)
+![SN1054 Light Curve](supernova/img/sn1054-output.png)
 Figure 1: Reconstructed light curve of SN 1054 from historical records, 
 overlaid with the ECSN model from Moriya et al. 2014.
 
