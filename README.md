@@ -84,6 +84,7 @@ this period limits direct comparison.
 
 ## Contact & Support
 **Email**: vytamynv@gmail.com
+
 **Report bug**: [Github Issues] https://github.com/vytamynv/crabnebula/issues
 
 
