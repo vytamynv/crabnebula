@@ -82,6 +82,11 @@ illustrated due to a lack of credible data in this region. While the ECSN
 model predicts a distinct plateau, the sparsity of historical records during 
 this period limits direct comparison.
 
+## Contact & Support
+**Email**: vytamynv@gmail.com
+**Report bug**: [Github Issues] https://github.com/vytamynv/crabnebula/issues
+
+
 ## References
 
 Horvath, J. E. (2022). A precursor interpretation for the Crab supernova 
