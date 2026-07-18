@@ -40,7 +40,7 @@ This program consists of 3 support files and 1 main file to run.
 
 All are written in Python. Version 3.0+ is strongly recommended.
 
-**IMPORTANT:** This is **NOT** open-source. See copyright notice section of this README.
+**IMPORTANT:** This is **NOT** open-source. See "License & Copyright" section.
 
 ## Methodology
 1. **Historical Research**: Extracted brightness descriptions from a summary 
