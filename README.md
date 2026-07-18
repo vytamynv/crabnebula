@@ -40,6 +40,8 @@ This program consists of 3 support files and 1 main file to run.
 
 All are written in Python. Version 3.0+ is strongly recommended.
 
+**IMPORTANT:** This is **NOT** open-source. See copyright notice section of this README.
+
 ## Methodology
 1. **Historical Research**: Extracted brightness descriptions from a summary 
    of historical records by Martocchia and Polcaro (2010). Duration 
@@ -87,6 +89,20 @@ this period limits direct comparison.
 
 **Report bug**: [Github Issues] https://github.com/vytamynv/crabnebula/issues
 
+## Copyright Notice
+
+© 2026 Vytamynv. All Rights Reserved.
+
+This project and its source code are made publicly visible for reference purposes only.
+
+You are **NOT** permitted to:
+
+- Copy, reproduce, or distribute any part of this code
+- Modify, adapt, or create derivative works
+- Use this code in any personal, commercial, or open-source project
+without explicit prior written permission from the author.
+
+For permission requests, please contact: vytamynv@gmail.com
 
 ## References
 
