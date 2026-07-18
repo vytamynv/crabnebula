@@ -100,6 +100,7 @@ You are **NOT** permitted to:
 - Copy, reproduce, or distribute any part of this code
 - Modify, adapt, or create derivative works
 - Use this code in any personal, commercial, or open-source project
+  
 without explicit prior written permission from the author.
 
 For permission requests, please contact: vytamynv@gmail.com
