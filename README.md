@@ -2,7 +2,7 @@
 
 Author: Vytamyn (CVN)
 
-Date: July 14, 2027
+Date: July 14, 2026
 
 ## Abstract
 The light curve of SN 1054 (Crab Nebula) is reconstructed from historical 
